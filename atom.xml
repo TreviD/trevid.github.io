@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Hugo 主题 MemE</title>
+    <subtitle type="html">TreviD Blog</subtitle>
+    <updated>2020-04-25T14:41:25+08:00</updated>
+    <id>https://trevid.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://trevid.github.io/" />
+    <link rel="self" type="application/atom+xml" href="https://trevid.github.io/atom.xml" />
+    <author>
+            <name>TreviD</name>
+            <uri>https://trevid.github.io/</uri>
+            
+                <email>trevidmy@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.64.1">Hugo</generator>
+        <entry>
+            <title type="text">快充 PD 及 紫米65W头</title>
+            <link rel="alternate" type="text/html" href="https://trevid.github.io/posts/categories/daily/2019-09-25-pd-zm-65w/" />
+            <id>https://trevid.github.io/posts/categories/daily/2019-09-25-pd-zm-65w/</id>
+            <updated>2020-02-17T16:34:55+08:00</updated>
+            <published>2019-09-25T21:26:53+00:00</published>
+            <author>
+                    <name>TreviD</name>
+                    <uri>https://blog.trevid.top/</uri>
+                    <email>trevidmy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[​ 这是一个值得铭记的日子。北京时间公元2019年09月11日，Apple公司举行了2……]]></summary>
+            
+                <content type="html"><![CDATA[<p>​    	<strong>这是一个值得铭记的日子。北京时间公元2019年09月11日，Apple公司举行了2019年度秋季新品发布会。在这次发布会上Apple发布了三款新品，分别是iPhone 11、iPhone 11 Pro、iPhone 11 Pro Max。其中尤为关键的一点是Apple 为iPhone 11 Pro以及iPhone 11 Pro Max 配备了18W pd快充头。是的在公元2019年Apple终于为自家旗舰手机配备了快充头。自此iPhone终于告别了原装充电头3小时的充电时间，迈入快充的新时代。（iPhone 11还是标配5v1A）</strong></p>
+<p>​		目前在电池技术尚未有革命性的突破前，快充就是各家产商给出的解决续航问题的唯一方案。从几年前各家快充协议繁荣发展，再到最近一年pd协议逐渐一统，再到现在各家又在搞各自的快充协议需求差异化竞争，无疑又印证了一句话天下大势，分久必合，合久必分。</p>
+<p>​		且不谈各家为了差异竞争搞出的幺蛾子协议，说说pd协议。</p>
+<blockquote>
+<p>USB- Power Delivery（USB PD） 是目前主流的快充协议之一。是由USB-IF组织制定的一种快速充电规范。</p>
+</blockquote>
+<p>​		说白了，就和各种网络协议一样，充电器和充电设备要充上电，也是要先沟通一下的。比如，设备最高能支持多少伏电压多少安的电流，充电器最高能提供多大电压多大电流。充电器不是一插上就直接憨憨的直接最大功率往设备里怼的。<strong>所以只要你用一个正常的使用pd协议的充电器，给你手机充电哪怕它是一个最大功率87W的充电头也不会充坏你的手机。</strong></p>
+<p>​		说完pd协议就必须要说Type-C接口，目前各种数据接口、视频接口也都在往Type-C转化，而如果这个Type-C还支持pd充电，那么就可以说这个Type-C接口是一个全功能接口。理论上这种接口是可以实现一个接口连接一个扩展坞实现充电、屏幕扩展、数据传输三个功能的。<img src="/photos/2019-09-25-zm-65w/IMG_2605.JPG" alt="如我米的这个Type-C扩展">但受限于普通Type-C接口的带宽问题，导致实际情况无法尽善尽美。例如上面说的我米的这个扩展，虽然它的dp（Display Port）接口支持4k60帧，但也因此它的USB接口仅支持到2.0。</p>
+<hr>
+<p>​		铺垫完了，开始正文。首先要支持pd协议那么接口就必须是Type-C接口，但不是所有Type-C接口都支持pd协议的快充。这一点首先需要明确，然后pd快充有什么好处呢？</p>
+<ul>
+<li>最重要的就是通用，通用随之而来的就是便宜！</li>
+</ul>
+<p>​		目前iPhone从iPhone8这一代开始就支持pd快充了，不过并未标配快充头，所以要实现快充需要自行购买pd充电器以及Type-C转 Lightning数据线，这个无需购买官方，注意买一些正经品牌的就好，因为pd协议是一个开放协议，理论上任何人都可以做，所以选一个靠谱的品牌购买就好，价格会便宜不少。Type-C转Lightning线目前Apple 也开放授权，所以也有很多第三方可选，选购时注意认准MFI认证即可，有这个认证就表明这根线查不到哪去。</p>
+<p>​		MacBook的话，所有带Type-C接口的MacBook都是pd充电，所以随便买个功率大一点的pd充电器都可以给MacBook充电。看看官网87W的充电器卖到584，想想100多块的65W充电器也是极好的。</p>
+<p>​		这里还有一点要注意的，普通的Type-C线最大电流为3A，要实现pd协议最大的100W供电能力，Type-C必须有E-Mark芯片才能实现3A以上的供电能力。因为pd协议最大电压为20v，所以理论上超过60W的充电器就需要这种带芯片的线才能然充电器满功率运行。当然这也讲究个木桶效应，实际的充电功率是按充电器能提供的、线能负载的、设备支持的最低的功率那个来的。</p>
+<ul>
+<li>
+<p>其次为一条线解决所有扩展提供了可能性</p>
+<p>​		其实这一点更像是Type-C的优点。</p>
+</li>
+<li>
+<p>其他，还没想好。。。ToBeContinue。。</p>
+</li>
+</ul>
+<p>​</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/categories/%E6%97%A5%E5%B8%B8/" term="日常" label="日常" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/%E5%85%85%E7%94%B5%E5%99%A8/" term="充电器" label="充电器" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/%E6%99%92%E5%8D%95/" term="晒单" label="晒单" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/%E5%85%85%E7%94%B5/" term="充电" label="充电" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/pd/" term="pd" label="pd" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">v2ray 实现透明代理 代理局域网内流量</title>
+            <link rel="alternate" type="text/html" href="https://trevid.github.io/posts/categories/net/2019-09-22-v2ray-proxy/" />
+            <id>https://trevid.github.io/posts/categories/net/2019-09-22-v2ray-proxy/</id>
+            <updated>2020-02-17T15:12:38+08:00</updated>
+            <published>2019-09-22T00:00:00+00:00</published>
+            <author>
+                    <name>TreviD</name>
+                    <uri>https://blog.trevid.top/</uri>
+                    <email>trevidmy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[首先这篇文章只说明如何使用v2ray实现透明代理，针对的是那些可能需要透明代理的人。……]]></summary>
+            
+                <content type="html"><![CDATA[<h3 id="首先这篇文章只说明如何使用v2ray实现透明代理针对的是那些可能需要透明代理的人">首先这篇文章只说明如何使用v2ray实现透明代理，针对的是那些可能需要透明代理的人。</h3>
+<h2 id="1透明代理">1.透明代理</h2>
+<p>首先介绍一下透明代理：</p>
+<blockquote>
+<p>用户A和用户B并不知道行为管理设备充当透明代理行为，当用户A或用户B向服务器A或服务器B提交请求的时候，透明代理设备根据自身策略拦截并修改用户A或B的报文，并作为实际的请求方，向服务器A或B发送请求，当接收信息回传，透明代理再根据自身的设置把允许的报文发回至用户A或B。（引用自 <a href="https://www.jianshu.com/p/16d19bba2c3d">彻底理解正向代理、反向代理、透明代理</a>）</p>
+</blockquote>
+<p>简单来说，比如路由器就可以看作一个透明代理设备，因为你所有流量都要经过路由器，它可以修改你的请求。比如你要访问 百度,它给你重定向到 另一个假百度的ip，但是你并不会知道你的请求已经被重定向了。那么你在这个网页发送的任何信息其实都是发送到了假百度，然而你是根本不知道的。如果是一个没有启用https的网站，那你的信息就会泄露，而启用了https的网站，在第一步访问的时候就会因为无法提供有效的百度的证书，被浏览器阻止访问，从而保护你的信息安全。所以**证书不要乱装，任何让你安装什么什么证书的的行为都要注意！如果不是百分百确定，都不要安装！！！**这也是之前一段时间有说某mi的路由器会加广告的原因，因为路由器如果被攻击了，那么你的信息就很危险了。如果恰好你还装了恶意的证书，那么你的信息安全基本就完蛋了。
+扯远了，再说回透明代理，实际上现在有一些去广告的应用已经用了透明代理，原理大概就是，把你安装去广告的那台设备当作一个代理服务器，然后你其他的设备所有流量都经过这台设备，这个去广告应用会检查所有请求，发现是广告请求就拦截掉。而这过程你只需要把需要代理的设备的网关(或者路由器)ip设置为你的这台代理服务器的ip就可以了。如果你在路由器里DHCP设置里直接设置了网关设备是代理服务器ip，那么理论上局域网下的设备的所有流量都将经过这台代理服务器，也就实现了去广告。
+（补充一点，现在一些去广告的应用，因为要去一些https页面的广告，会要求装证书，个人建议，不要安装。理由同上，安全问题。）</p>
+<h2 id="2v2ray">2.v2ray</h2>
+<p>说完了透明代理，说回这次主题<strong>v2ray</strong></p>
+<blockquote>
+<p>Project V 是一个工具集合，它可以帮助你打造专属的基础通信网络。Project V 的核心工具称为V2Ray，其主要负责网络协议和功能的实现，与其它 Project V 通信。V2Ray 可以单独运行，也可以和其它工具配合，以提供简便的操作流程。
+<strong>主要特性</strong></p>
+<ul>
+<li>多入口多出口: 一个 V2Ray 进程可并发支持多个入站和出站协议，每个协议可独立工作。</li>
+<li>可定制化路由: 入站流量可按配置由不同的出口发出。轻松实现按区域或按域名分流，以达到最优的网络性能。</li>
+<li>多协议支持: V2Ray 可同时开启多个协议支持，包括 Socks、HTTP、Shadowsocks、VMess 等。每个协&gt;- 议可单独设置传输载体，比如 TCP、mKCP、WebSocket 等。</li>
+<li>隐蔽性: V2Ray 的节点可以伪装成正常的网站（HTTPS），将其流量与正常的网页流量混淆，以避开第三方干扰。</li>
+<li>反向代理: 通用的反向代理支持，可实现内网穿透功能。</li>
+<li>多平台支持: 原生支持所有常见平台，如 Windows、Mac OS、Linux，并已有第三方支持移动平台。
+赞助商</li>
+</ul>
+</blockquote>
+<p>简单来说，v2ray可以让你自由组合代理协议。这个可玩性就比较多了。。</p>
+<h2 id="3搭建透明代理">3.搭建透明代理</h2>
+<ol>
+<li>首先你要有一台可以24小时开机的Linux设备，无论什么设备都行，推荐最好有千兆网口的设备，当然如果你路由器还是百兆口那就当我没说。性能的话没有太高的要求，当然能强一点当然最好，不过一般家用足够了。可以用旧电脑装虚拟机，或者直接旧电脑装Linux。</li>
+<li>Linux设备上网方式设置成静态ip，设置方法自己百度，一般是设置 /etc/sysconfig/network-scripts/目录下对应你网卡的那个文件</li>
+</ol>
+<pre><code>DEVICE=&quot;eth0&quot;
+#BOOTPROTO=&quot;dhcp&quot;//禁用
+BOOTPROTO=&quot;static&quot;//设置为静态
+IPADDR=192.168.15.238//指定ip，这个要看你家路由器子网的网段，可以就是这边15这个数字，看一下当前设备的ip，保持一致就可以，238这个数字要保证和家里其他设备都不一致
+NETMASK=255.255.255.0//设置netmask,一般家庭宽带都是这个
+GATEWAY=192.168.15.1 // 网关，就是你路由器的地址
+HWADDR=&quot;00:0C:29:56:8F:AD&quot;
+IPV6INIT=&quot;no&quot;
+NM_CONTROLLED=&quot;yes&quot;
+ONBOOT=&quot;yes&quot;//修改为yes
+TYPE=&quot;Ethernet&quot;
+UUID=&quot;ba48a4c0-f33d-4e05-98bd-248b01691c20&quot;
+</code></pre><p>修改好了重启网络</p>
+<pre><code>service network restart
+</code></pre><p>等一会，看网络能不能用，不能的话百度吧。</p>
+<ol start="3">
+<li>Linux开启ip转发，在 /etc/sysctl.conf 文件添加一行 net.ipv4.ip_forward=1 ，执行下列命令生效：</li>
+</ol>
+<pre><code>sysctl -p
+</code></pre><ol start="4">
+<li>下载v2ray，这个自行百度，github上有。如果你下不到，我猜此教程你应该是完成不了的。</li>
+<li>配置v2ray ，v2ray的配置文件是config.json，下面提供一个配置文件。输入流量的协议为dokodemo-door（表明接受任意tcp、udp流量）。输出协议为socks，即可以将流量转发到一个socks5代理服务器。</li>
+</ol>
+<pre><code>{
+  &quot;log&quot;:{},
+  &quot;dns&quot;:{},
+  &quot;stats&quot;:{},
+  &quot;inbounds&quot;:[
+{
+      &quot;port&quot;:&quot;1080&quot;,
+      &quot;protocol&quot;:&quot;socks&quot;,
+      &quot;settings&quot;:{
+        &quot;auth&quot;:&quot;noauth&quot;,
+        &quot;udp&quot;:true
+      },
+      &quot;tag&quot;:&quot;in-0&quot;
+    },
+    {
+      &quot;port&quot;:&quot;1081&quot;,
+      &quot;protocol&quot;:&quot;http&quot;,
+      &quot;settings&quot;:{},
+      &quot;tag&quot;:&quot;in-1&quot;
+    },
+    {
+      &quot;port&quot;: 12345, //开放的端口号
+      &quot;protocol&quot;: &quot;dokodemo-door&quot;,
+      &quot;settings&quot;: {
+        &quot;network&quot;: &quot;tcp,udp&quot;,
+        &quot;followRedirect&quot;: true // 这里要为 true 才能接受来自 iptables 的流量
+      },
+      &quot;sniffing&quot;: {
+        &quot;enabled&quot;: true,
+        &quot;destOverride&quot;: [&quot;http&quot;, &quot;tls&quot;]
+      }
+    }
+  ],
+  &quot;outbounds&quot;:[
+    {
+      &quot;protocol&quot;:&quot;socks&quot;,
+      &quot;settings&quot;:{
+        &quot;servers&quot;:[
+          {
+            &quot;address&quot;:&quot;127.0.0.1&quot;,
+            &quot;port&quot;:1082
+          }
+        ]
+      },
+      &quot;tag&quot;:&quot;out-0&quot;,
+      &quot;streamSettings&quot;:{
+        &quot;network&quot;:&quot;tcp&quot;,
+        &quot;security&quot;:&quot;none&quot;,
+        &quot;tcpSettings&quot;:{},
+         &quot;sockopt&quot;: {
+          &quot;mark&quot;: 255
+        }
+      }
+    },
+    {
+      &quot;tag&quot;:&quot;direct&quot;,
+      &quot;protocol&quot;:&quot;freedom&quot;,
+      &quot;settings&quot;:{}
+    },
+    {
+      &quot;tag&quot;:&quot;blocked&quot;,
+      &quot;protocol&quot;:&quot;blackhole&quot;,
+      &quot;settings&quot;:{}
+    }
+  ],
+  &quot;routing&quot;:{
+    &quot;domainStrategy&quot;:&quot;IPOnDemand&quot;,
+    &quot;rules&quot;:[
+ {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;domain&quot;: [&quot;geosite:cn&quot;] // 中国大陆主流网站的域名
+      },
+      {
+        &quot;type&quot;: &quot;field&quot;,
+        &quot;outboundTag&quot;: &quot;direct&quot;,
+        &quot;ip&quot;: [
+          &quot;geoip:cn&quot;, // 中国大陆的 IP
+          &quot;geoip:private&quot; // 私有地址 IP，如路由器等
+        ]
+      },
+{
+&quot;type&quot;:&quot;field&quot;,
+&quot;outboundTag&quot;:&quot;out-0&quot;,
+&quot;domain&quot;:[
+&quot;cdninstagram.com&quot;,&quot;instagram.com&quot;
+]
+}
+    ]
+  },
+  &quot;policy&quot;:{},
+  &quot;reverse&quot;:{},
+  &quot;transport&quot;:{}
+}
+</code></pre><ol start="6">
+<li>设定 TCP 透明代理的 iptables 规则，命令如下(#代表注释)：</li>
+</ol>
+<pre><code>iptables -t nat -N V2RAY # 新建一个名为 V2RAY 的链
+iptables -t nat -A V2RAY -d 192.168.0.0/16 -j RETURN # 直连 192.168.0.0/16
+iptables -t nat -A V2RAY -p tcp -j RETURN -m mark --mark 0xff # 直连 SO_MARK 为 0xff 的流量(0xff 是 16 进制数，数值上等同与上面配置的 255)，此规则目的是避免代理本机(网关)流量出现回环问题
+iptables -t nat -A V2RAY -p tcp -j REDIRECT --to-ports 12345 # 其余流量转发到 12345 端口（即 V2Ray）
+iptables -t nat -A PREROUTING -p tcp -j V2RAY # 对局域网其他设备进行透明代理
+</code></pre><ol start="7">
+<li>这个时候可以手动改一下你手机或者电脑网络设置的网关为你这台Linux服务器的ip，看下流量是不是走了代理服务器。（注意关闭Linux防火墙）</li>
+<li>当确认没问题，可以修改路由器的DHCP设置
+<img src="http://yanxuan.nosdn.127.net/2abae4103924feec0310c63fe73b25f7.png" alt="路由器设置">
+将这边默认网关设置成你的Linux服务器，然后局域网内的设备应该就都会走到代理服务器了，也不需要其他设置。</li>
+</ol>
+<h2 id="4qa">4.Q&amp;A</h2>
+<ol>
+<li>Q：这能干嘛？？
+A：v2ray的能实现的功能很多，比如广告过滤，当然还有一些功能咱也不知道，咱也不敢说。我弄这个也是为了某个不可描述的功能。</li>
+<li>Q：为什么我按照教程设置了无法上网？？
+A：具体问题具体分析，要么百度，要么请教大神。另外这是一篇半成品教程，只是说明如何通过v2ray实现透明代理。如果你啥都不知道就按这篇文章设置一遍那你肯定是上不了网的。</li>
+<li>Q：v2ray 配置看不懂咋办？
+A：同上，v2ray有详细文档，可以自己研究，或者百度、请教大神。</li>
+</ol>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/categories/%E7%BD%91%E7%BB%9C/" term="网络" label="网络" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/%E4%BB%A3%E7%90%86/" term="代理" label="代理" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/%E7%BD%91%E7%BB%9C/" term="网络" label="网络" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">网易云歌单转Apple Music</title>
+            <link rel="alternate" type="text/html" href="https://trevid.github.io/posts/categories/daily/2019-04-13-wangyi-applemusic/" />
+            <id>https://trevid.github.io/posts/categories/daily/2019-04-13-wangyi-applemusic/</id>
+            <updated>2020-02-17T15:12:07+08:00</updated>
+            <published>2019-04-13T22:36:22+00:00</published>
+            <author>
+                    <name>TreviD</name>
+                    <uri>https://blog.trevid.top/</uri>
+                    <email>trevidmy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[最近入手了HomePod，顺手也就开通了Apple Music，于是也就有了这篇 网易云……]]></summary>
+            
+                <content type="html"><![CDATA[<p>最近入手了HomePod，顺手也就开通了Apple Music，于是也就有了这篇 网易云歌单转Apple Music的教程，实测近1000首成功转了一半左右。</p>
+<p>废话不多说，下面开始。</p>
+<h3 id="1-获取网易云歌单列表">1. 获取网易云歌单列表。</h3>
+<p>可以访问网页版网易云音乐，进入自己想要转换的歌单页面，注意是如下图的页面。</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_2/"><img src="http://upload-images.jianshu.io/upload_images/1932080-a9ef2f1b41fa837a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="歌单页面"></a> 歌单页面</p>
+<p>注意不是如下图的页面。</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_3/"><img src="http://upload-images.jianshu.io/upload_images/1932080-45da57db2331b96a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="不是这个页面"></a> 不是这个页面</p>
+<p>下面这个页面是一搬用户登陆后进入到我喜欢的页面，而一般分享的歌单链接进入的都是上一张图所示的页面。</p>
+<h3 id="2获取歌单">2.获取歌单</h3>
+<p>进入上述第一张图所示的页面后，打开开发者工具（Mac 上Chrome 按 command+shift+i，Windows一般是按F12，若不能打开请自行搜索。）</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_4/"><img src="http://upload-images.jianshu.io/upload_images/1932080-e4376f3b4cf4ccf7.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="控制台"></a> 控制台</p>
+<p>如上图，点击console，然后在 控制台粘贴如下代码</p>
+<pre><code>(function() {
+    // Load the script
+    var script = document.createElement(&quot;SCRIPT&quot;);
+    script.src = 'https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js';
+    script.type = 'text/javascript';
+    document.getElementsByTagName(&quot;head&quot;)[0].appendChild(script);
+
+    // Poll for jQuery to come into existance
+    var checkReady = function(callback) {
+        if (window.jQuery) {
+            callback(jQuery);
+        }
+        else {
+            window.setTimeout(function() { checkReady(callback); }, 100);
+        }
+    };
+
+    // Start polling...
+    checkReady(function($) {
+    $('#m-playlist')
+        var text = &quot;&quot;;
+        $(window.contentFrame.document).find('#m-playlist .m-table tbody tr').each(function(){ 
+            text +=($(this).children('td:eq(3)').children('div').attr('title')+&quot; - &quot;+$(this).find(&quot;b&quot;).attr(&quot;title&quot;)+&quot;&lt;br&gt;&quot;);
+        });
+        $('body').append(&quot;&lt;div &gt;&quot;+text+&quot;&lt;/div&gt;&quot;);
+
+    });
+})();
+</code></pre><p>然后回车，之后把网页翻到最下方，如果执行正常的话应该有所有歌曲的列表，手动复制一下。</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_5/"><img src="http://upload-images.jianshu.io/upload_images/1932080-69f9ab64048a4114.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="手动复制歌单"></a> 手动复制歌单</p>
+<h3 id="3歌单转换">3.歌单转换</h3>
+<h3 id="打开网站httpswwwtunemymusiccomzh-cnhttpswwwtunemymusiccomzh-cn">打开网站 <a href="https://www.tunemymusic.com/zh-cn">https://www.tunemymusic.com/zh-cn</a></h3>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_6/"><img src="http://upload-images.jianshu.io/upload_images/1932080-5d1b7465f7c6750e.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="选择从文本"></a> 选择从文本</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_7/"><img src="http://upload-images.jianshu.io/upload_images/1932080-73d838abe92896ed.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="把上一步复制的歌单粘贴到此处"></a> 把上一步复制的歌单粘贴到此处</p>
+<p>把上一步复制的歌单粘贴到此处，然后跟着网站的指示继续。</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_8/"><img src="http://upload-images.jianshu.io/upload_images/1932080-5e9cf95ba956ad95.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="网易云歌单转Apple Music"></a></p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_9/"><img src="http://upload-images.jianshu.io/upload_images/1932080-58e28ed1ad4640f9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="网易云歌单转Apple Music"></a></p>
+<p>这里选择Apple Music，然后登陆Apple music授权此网站访问Apple Music的数据，要注意打开iCloud 音乐资料库，可以在设置 -&gt; 音乐中打开。</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_10/"><img src="http://upload-images.jianshu.io/upload_images/1932080-80d65f6146234f5a.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="网易云歌单转Apple Music"></a></p>
+<p>一切都好了之后就是等待导入完成。完成之后就可以在Apple Music资料库中看到刚刚导入的歌单了。</p>
+<p><a href="https://post.smzdm.com/p/az5970r5/pic_11/"><img src="http://upload-images.jianshu.io/upload_images/1932080-6fd9aca8e97cb717.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="My Playlist"></a></p>
+<p>如图，My Playlist即为导入的歌单。</p>
+<p>导入还是比较快的，主要就是如何获取歌单这一块。理论上这个方法还是比较通用的。也可以获取qq音乐等歌单，主要还是上面获取歌单的js代码。</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/categories/%E6%97%A5%E5%B8%B8/" term="日常" label="日常" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/applemusic/" term="AppleMusic" label="AppleMusic" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">jquery&#43;zui 实现 复选框树</title>
+            <link rel="alternate" type="text/html" href="https://trevid.github.io/posts/categories/front/2018-04-29-jquery-zui-checkbox-tree/" />
+            <id>https://trevid.github.io/posts/categories/front/2018-04-29-jquery-zui-checkbox-tree/</id>
+            <updated>2020-02-17T15:11:51+08:00</updated>
+            <published>2018-04-29T22:42:31+00:00</published>
+            <author>
+                    <name>TreviD</name>
+                    <uri>https://blog.trevid.top/</uri>
+                    <email>trevidmy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[做毕设遇到一处需要复选框树，觉得easyui略丑，而zui又没有复选框树，只有树形菜……]]></summary>
+            
+                <content type="html"><![CDATA[<p>做毕设遇到一处需要复选框树，觉得easyui略丑，而zui又没有复选框树，只有树形菜单，遂自己撸！
+<img src="https://upload-images.jianshu.io/upload_images/1932080-ec001221ee3f2953.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="效果图">
+树形结构用了zui的树形菜单，然后自己添加复选框，自己写复选框级联，是一个递归。（所以好好学习算法数据结构～）
+代码如下</p>
+<pre><code>&lt;ul class=&quot;tree&quot; data-ride=&quot;tree&quot; id=&quot;tree&quot;&gt;
+  &lt;li&gt;
+    &lt;input type=&quot;checkbox&quot;/&gt;&lt;a href=&quot;#&quot;&gt;水果&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;input type=&quot;checkbox&quot;/&gt;&lt;a href=&quot;#&quot;&gt;苹果&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;input type=&quot;checkbox&quot;/&gt;&lt;a href=&quot;#&quot;&gt;热带水果&lt;/a&gt;
+        &lt;ul&gt;
+          ...
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;input type=&quot;checkbox&quot;/&gt;&lt;a href=&quot;#&quot;&gt;梨子&lt;/a&gt;&lt;/li&gt;
+      ...
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;input type=&quot;checkbox&quot;/&gt;&lt;a href=&quot;#&quot;&gt;粥饭&lt;/a&gt;&lt;/li&gt;
+  ...
+&lt;/ul&gt;
+</code></pre><p>这边是zui官网的demo，然后自己加了checkbox。
+下面是实现复选框级联的代码：</p>
+<pre><code>// 监听复选框
+ $('#tree [type=&quot;checkbox&quot;]').change(function () {
+        if($(this).is(&quot;:checked&quot;)) {
+            // 如果变为已选，则将其子复选框全部变成已选
+            $(this).parent().find(':checkbox').prop(&quot;checked&quot;, true);
+        } else {
+            // 如果变为未选，则将其子复选框全部变成未选
+            $(this).parent().find(':checkbox').prop(&quot;checked&quot;, false);
+            
+        }
+        reloadExamineeTree();
+    });
+
+    // 更新整个复选框，实现级联
+    function reloadExamineeTree(){
+        // 遍历几个根复选框
+        $('#tree ').children('li').each(function(){
+            setChecked($(this).children('input')[0])
+        });
+    }
+
+    // 递归设置每一个非叶子复选框的状态
+    function setChecked(dom) {
+        if($(dom).next().next().find(':checkbox').length==0){
+            //console.log(dom);
+            return $(dom).is(':checked')?1:0;
+        } else {
+            var sum=0;
+            $(dom).next().next().children().each(function () {
+                sum += setChecked($(this).children('input')[0]);
+            });
+            if(sum == $(dom).next().next().children().length){
+                $(dom).prop('checked', true);
+            }else {
+                $(dom).prop('checked', false);
+
+            }
+            //console.log(sum);
+            return $(dom).is(':checked')?1:0;
+
+        }
+    }
+</code></pre>]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/categories/%E5%89%8D%E7%AB%AF/" term="前端" label="前端" />
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/%E5%89%8D%E7%AB%AF/" term="前端" label="前端" />
+                            
+                        
+                            
+                            
+                            
+                                <category scheme="https://trevid.github.io/tags/js/" term="js" label="js" />
+                            
+                        
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text"></title>
+            <link rel="alternate" type="text/html" href="https://trevid.github.io/posts/2019-11-05-ipv6/" />
+            <id>https://trevid.github.io/posts/2019-11-05-ipv6/</id>
+            <updated>0001-01-01T00:00:00+00:00</updated>
+            <published>0001-01-01T00:00:00+00:00</published>
+            <author>
+                    <name>TreviD</name>
+                    <uri>https://blog.trevid.top/</uri>
+                    <email>trevidmy@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"><![CDATA[]]></summary>
+            
+                <content type="html"><![CDATA[]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>
